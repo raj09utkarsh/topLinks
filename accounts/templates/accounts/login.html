@@ -1,0 +1,14 @@
+{% extends 'topLinksHome/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="card text-center" style="width:18rem; margin:10rem auto;">
+            <div class="card-title">
+                <h2>Sign In</h2>
+            </div>
+            <div class="card-body">
+                <a href="{% url 'twitter_redirect' %}" class="btn btn-primary btn-lg">SignIn with Twitter</a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
